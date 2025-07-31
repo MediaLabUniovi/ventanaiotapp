@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "AirWindow",
+    "slug": "my-project",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon1.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon1.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.vilas.ventanaiot"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon1.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "aa0b1a69-b153-44a1-8f2b-5e8402192c9a"
+      }
+    }
+  }
+}
