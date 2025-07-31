@@ -1,8 +1,14 @@
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a5c3c3be-563e-4179-afa5-3941372ae835" width="300"/>
+  <img src="https://github.com/user-attachments/assets/7bcad705-e5a8-40a5-83cf-ca03bca8bd80" width="300"/>
+</p>
+
+
 
 ---
 
-#  App de Control de Ventana Automática (React Native + Expo)
+#  App de Control sistema de ventilación inteligente (React Native + Expo)
 
 Este proyecto es una **aplicación móvil desarrollada con React Native y Expo** que permite controlar un mecanismo de apertura/cierre de una ventana mediante el protocolo **MQTT**.
 
@@ -67,7 +73,7 @@ export const client: MqttClient = mqtt.connect(WS_HOST, {
 
 ---
 
-## ▶️ Ejecución del proyecto
+##  Ejecución del proyecto
 
 1. Instalar dependencias:
 
@@ -85,7 +91,7 @@ export const client: MqttClient = mqtt.connect(WS_HOST, {
 
 ---
 
-## 🔗 Requisitos
+## Requisitos
 
 * Node.js >= 16
 * Expo CLI
